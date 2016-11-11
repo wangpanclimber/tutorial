@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+		<title>通讯录</title>
+	</head>
+	<body>
+		<div id="header">
+        	<span id="add_button" class="button">添加</span>
+            <span id="alter_button" class="button">修改</span>
+            <span id="divide_button" class="button">分组</span>
+            <span id="delete_button" class="button">删除</span>
+        </div>
+		<div class="menu">
+        	<span id="user_icon"><strong>用户</strong><br></span>
+            <span id="all_contact"><strong>所有人</strong><br></span>
+            <span id="exit"><strong>退出</strong></span>
+        </div>
+        <div id="data">
+        	<span id="data_icon"><img src="images/user.png" /><br></span>
+            <div id="data_new">
+            	<form name="data_new" action="insert_contacts.php" method="post">
+                	姓名：
+                    <input type="text" name="contacts_name" /><br>
+                    性别：
+                    <input type="text" name="contacts_sex" /><br>
+                    电话：
+                    <input type="text" name="contacts_tel" /><br>
+                    邮箱：
+                    <input type="text" name="contacts_email" /><br>
+                    <input type="submit" value="添加" />
+                </form>
+            </div>
+        </div>
+		<div class="right">
+        	<div id="search">
+            	<form name="search" action="search_results.php" method="post">
+                    <input type="text" name="searchterm" />
+                    <input type="submit" value="search" />
+                </form>
+            </div>
+        </div>
+		<!-- <div id="footer"></div> -->
+	</body>
+</html>

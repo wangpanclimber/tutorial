@@ -1,0 +1,85 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	height: 50px;
+	background-color: #F38630;
+	margin-bottom: 10px;
+}
+
+.menu {
+	display: inline-block;
+	position: absolute;
+	height: 900px;
+	width: 4%;
+	background-color: #A7DBD8;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#data {
+	display: inline-block;
+	position: absolute;
+	left: 5%;
+	height: 900px;
+	width: 64.5%;
+	background-color: #D7CCCC;
+	margin-bottom: 10px;
+	text-align: center;	
+}
+.right {
+	display: inline-block;
+	position: absolute;
+	left: 70%;
+	height: 900px;
+	width: 450px;
+	background-color: #E0E4CC;
+	margin-bottom: 10px;
+}
+
+#footer {
+	display: block;
+	height: 50px;
+	background-color: #69D2E7;
+
+}
+
+#user_icon{
+	display: block;
+	margin: 15px 5px 15px 5px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#all_contact {
+	display: block;
+	margin: 15px 5px 15px 5px;
+	color: #FFFFFF;
+}
+
+#search {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;	
+}
+
+#data_icon {
+	position: relative;
+	top: 60px;
+}
+
+#data_new {
+	position: relative;
+	top: 90px;
+}
+
+.button {
+	background: #97D5D1;
+}
+
+#exit {
+	display: block;
+	margin: 15px 5px 15px 5px;
+	color: #FFFFFF;
+}

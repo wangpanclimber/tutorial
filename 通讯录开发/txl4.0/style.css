@@ -1,0 +1,84 @@
+div {
+	border-radius: 5px;
+}
+
+#header {
+	height: 50px;
+	background-color: #F38630;
+	margin-bottom: 10px;  
+    line-height:50px;   
+    overflow:hidden;  
+}
+
+.menu {
+	float: left;
+	height: 700px;
+	width: 6%;
+	background-color: #A7DBD8;
+	margin-right: 0.5%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#data {
+	float: left;
+	height: 700px;
+	width: 68%;
+	background-color: #D7CCCC;
+	margin-right: 0.5%;
+	margin-bottom: 10px;
+	text-align: center;	
+}
+
+.right {
+	float: left;
+	height: 700px;
+	width: 25%;
+	background-color: #E0E4CC;
+	margin-bottom: 10px;
+}
+
+#footer {
+	clear: both;
+	height: 50px;
+	background-color: #69D2E7;
+
+}
+
+#user_icon{
+	display: block;
+	margin: 15px 5px 15px 5px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#all_contact {
+	display: block;
+	margin: 15px 5px 15px 5px;
+	color: #FFFFFF;
+}
+
+#search {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;	
+}
+
+#search_result {
+	position: relative;
+	left: 5%;
+	background: #D33C3E;
+	width: 90%;
+	height: 200px;
+	text-align: center;
+}
+
+.button {
+	
+}
+
+#exit {
+	display: block;
+	margin: 15px 5px 15px 5px;
+	color: #FFFFFF;
+}

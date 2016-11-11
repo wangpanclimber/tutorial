@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+		<title>通讯录</title>
+	</head>
+	<body>
+    <div id="header"> 
+      <span id="add_button" class="button"><a href="add/add.html" target="iframeA">添加</a></span> 
+        <span id="alter_button" class="button"><a href="update/update.html" target="iframeA">修改</a></span> 
+        <span id=	"divide_button" class="button">分组</span> 
+        <span id="delete_button" class="button"><a href="delete/delete.html" target="iframeA">删除</a></span>
+    </div>
+    
+    <div class="menu"><strong><a href="user/user.html" target="iframeA">用户</a></strong><br>
+      <strong><a href="allpeople/allpeoplestyle.php" target="iframeA">所有人</a></strong><br>
+    <strong>退出</strong></div>
+    <div id="data"> 
+    	<iframe src="user/user.html" name="iframeA" height="100%" width="100%" frameborder="0">
+        </iframe>
+    	  <!-- <span id="data_icon"><img src="images/user.png" /><br></span>
+          <div id="data_new">
+            <form name="data_new" action="？？？？？？" method="get">
+              <fieldset>
+                <legend>添加用户信息</legend>
+                性别：
+                <input type="radio" name="sex" />男 
+				<input type="radio" name="sex" />女 
+                <br>
+                姓名：
+                <input type="text" name="name" />
+                <br>
+                电话：
+                <input type="text" name="photo" />
+                <br>
+                邮箱：
+                <input type="text" name="email" />
+                <br><br>
+                <textarea rows="5" cols="30">请在此添加备注信息</textarea>
+                <br>
+                <input type="submit" value="添加" />
+              </fieldset>
+            </form>
+          </div> -->
+    </div>
+    <div class="right">
+    <iframe src="search/search.html" name="iframeA" height="100%" width="100%" frameborder="0">
+    </iframe>
+   	<!-- <div id="search">
+                <form name="search" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post">
+                  <fieldset>
+                    <legend>搜索用户信息</legend>
+                    <br>
+                    性别：
+                    <input type="radio" name="gender" value="male" checked/>男 
+                    <input type="radio" name="gender" value="female"/>女 
+                    <br>	
+                    姓名：
+                    <input type="text" name="name" />
+                    <br>
+                    年龄：
+                    <input type="text" name="age" />
+                    <br>
+                    电话：
+                    <input type="text" name="tel" />
+                    <br>
+                    邮箱：
+                    <input type="text" name="email" />
+                    <br><br>
+                    <input type="submit" value="搜索" />
+                  </fieldset>
+                </form>
+                <br><br><br><hr>
+                <div id="search_result"></div>
+            </div> -->
+        </div>
+	<div id="footer"></div>
+	</body>
+</html>
